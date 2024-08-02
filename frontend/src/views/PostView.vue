@@ -1,0 +1,3 @@
+<template>
+    POST VIEW
+</template>
