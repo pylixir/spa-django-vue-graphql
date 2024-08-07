@@ -5,6 +5,7 @@ import TagView from '@/views/TagView.vue'
 import PostView from '@/views/PostView.vue'
 import AllCategories from '@/views/AllCategories.vue'
 import AllTagsView from '@/views/AllTagsView.vue'
+import SignUpView from '@/views/SignUpView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -15,7 +16,7 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/category',
+      path: '/category/:category',
       name: 'Category',
       component: CategoryView,
     },
@@ -38,6 +39,11 @@ const router = createRouter({
       path: '/tags',
       name: 'Tags',
       component: AllTagsView
+    },
+    {
+      path: '/signup',
+      name: 'SignUp',
+      component: SignUpView
     }
   ]
 })

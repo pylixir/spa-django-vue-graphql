@@ -85,7 +85,7 @@ DATABASES = {
         # 'USER': 'django_user',
         # 'PASSWORD': '#M3t4lD00m16',
         'USER': 'root',
-        'PASSWORD': '',
+        'PASSWORD': 'p455w0rd',
         'HOST': 'localhost',
         'PORT': '3306',
     }
@@ -158,4 +158,4 @@ GRAPHENE = {
 
 # Cors 
 CORS_ORIGIN_ALLOW_ALL = False
-CORS_ORIGIN_WHITELIST = ("http://localhost:8080",)
+CORS_ORIGIN_WHITELIST = ("http://localhost:5173",)
